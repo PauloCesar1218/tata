@@ -1,0 +1,8 @@
+CREATE DATABASE tata;
+USE tata;
+CREATE TABLE user (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    email VARCHAR(50) NOT NULL,
+    senha VARCHAR(20) NOT NULL,
+    nome VARCHAR(50) NOT NULL
+);
